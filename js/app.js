@@ -1,4 +1,4 @@
-var app = angular.module("myApp", ['ngRoute']);
+var app = angular.module("photoApp", ['ngRoute'])
 
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
@@ -8,4 +8,4 @@ app.config(['$routeProvider', function ($routeProvider) {
     })
 }])
 
-require('./controllers/MainController.js')(app);
+// require('./controllers/MainController.js')(app);
