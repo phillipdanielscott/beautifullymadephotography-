@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/PBJdevelopment/beautifullymadephotography-/issues"
   },
-  "homepage": "https://github.com/PBJdevelopment/beautifullymadephotography-#readme"
+  "homepage": "https://github.com/PBJdevelopment/beautifullymadephotography-#readme",
+  "dependencies": {
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1"
+  }
 }

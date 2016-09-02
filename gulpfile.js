@@ -20,17 +20,16 @@ gulp.task('html', function(){
     .pipe(gulp.dest('./public'));
 });
 
-//js
 gulp.task('js', function(){
-  gulp.src('/js/app.js')
-    .pipe(browserify())
-    .pipe(gulp.dest('./public'));
+  gulp.src('js/app.js')
+    // .pipe(browserify())
+    .pipe(gulp.dest('./public/js'));
 });
 
 
 //css
 gulp.task('css', function(){
-  gulp.src('./scss/styles.scss')
+  gulp.src('./styles/styles.css')
     // .pipe(sass())
     .pipe(gulp.dest('./public/css'));
 })
