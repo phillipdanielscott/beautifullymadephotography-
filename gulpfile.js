@@ -23,7 +23,7 @@ gulp.task('html', function(){
 //js
 gulp.task('js', function(){
   gulp.src('/js/app.js')
-    .pipe(browserify())
+    // .pipe(browserify())
     .pipe(gulp.dest('./public'));
 });
 
